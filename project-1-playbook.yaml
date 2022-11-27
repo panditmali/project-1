@@ -11,7 +11,7 @@
             git:
                     repo: 'https://github.com/panditmali/project-1'
                     dest: "{{ gitdir }}"
-                    version: "master"
+                    version: "main"
           - name: "compile the addressbook project"
             command:
                     chdir: "{{ gitdir }}"
